@@ -3,8 +3,8 @@ Simple python script to help with port memorization for Security+ SYO-501 certif
 
 ## To install:
 - clone this repo or copy code to local machine
-	- make port_trainer.py executable and run with ./port_trainer.py
-	- or, python3 port_trainer.py
+	- make port_trainer.py executable and run with `./port_trainer.py`
+	- or, `python3 port_trainer.py`
 
 ### Future changes:
 - make game loop to keep playing
