@@ -13,5 +13,5 @@ Simple python script to help with port memorization for Security+ SYO-501 certif
 - ask questions with protocol and prompt for port number
 
 ## Release Info:
-#### Created by flowenol with :heart:
+#### Created with :heart: by flowenol
 - Last modified: 11/24/2020
