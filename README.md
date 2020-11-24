@@ -3,7 +3,7 @@ Simple python script to help with port memorization for Security+ SYO-501 certif
 
 ## INSTALL & RUN
 ###### INSTALL
-- clone this repo or copy code to local machine
+- clone this repo && cd into directory
 - install dependecies with `pip3 install -r requirements.txt`
 	
 ###### RUN	
