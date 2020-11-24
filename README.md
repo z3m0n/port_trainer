@@ -20,5 +20,5 @@ Simple python script to help with port memorization for Security+ SYO-501 certif
 	- < 65 - Terrible! Go study!
 
 ## Release Info:
-#### Created with :heart: by flowenol
 - Last modified: 11/24/2020
+#### Created with :heart: by flowenol
