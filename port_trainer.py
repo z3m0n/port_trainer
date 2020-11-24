@@ -53,7 +53,7 @@ for port, protocol in port_proto_dict.items():
 	if (answer.lower() == protocol.lower()):
 		print('Correct!')
 		correct += 1
-		sleep(0.5) # quick sleep before clear screen
+		sleep(0.25) # quick sleep before clear screen
 	else:
 		print('Wrong!')
 		print('Correct answer: '+str(port)+' '+str(protocol))
