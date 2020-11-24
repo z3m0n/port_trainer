@@ -49,14 +49,14 @@ incorrect = 0
 for port, protocol in port_proto_dict.items():
 	clear_screen()
 	print('\nPort: '+ str(port))
-	answer = input('Protocol? ')
+	answer = input('Protocol: ')
 	if (answer.lower() == protocol.lower()):
 		print('Correct!')
 		correct += 1
-		sleep(1) # quick sleep before clear screen
+		sleep(0.5) # quick sleep before clear screen
 	else:
 		print('Wrong!')
-		print('Correct answer: '+str(port)+': '+str(protocol))
+		print('Correct answer: '+str(port)+' '+str(protocol))
 		incorrect += 1
 		sleep(3) # sleep to allow user to see correct answer
 # end for loop
