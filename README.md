@@ -12,6 +12,6 @@ Simple program to help with port memorization for Security+ SYO-501 certificatio
 - randomize question order
 - ask questions with protocol and prompt for port number
 
-
-Created by: flowenol
-Last modified: 11/24/2020
+###
+- Created by: flowenol
+- Last modified: 11/24/2020
