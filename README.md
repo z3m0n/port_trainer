@@ -1,8 +1,14 @@
 # port_trainer
 Simple python script to help with port memorization for Security+ SYO-501 certification exam.
 
-## To install:
+## INSTALL & RUN
 - clone this repo or copy code to local machine
+- install Termux app from App Store (LINK)
+	- also install Termux:API (LINK)
+	- also install termux-api termux package with:
+		- `pkg install termux-api` or
+		- `apt install termux-api`
+	###### RUN	
 	- make port_trainer.py executable and run with `./port_trainer.py`
 	- or, `python3 port_trainer.py`
 
