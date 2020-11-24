@@ -1,5 +1,5 @@
 # port_trainer
-Simple program to help with port memorization for Security+ SYO-501 certification exam.
+Simple python script to help with port memorization for Security+ SYO-501 certification exam.
 
 ## To install:
 - clone this repo or copy code to local machine
