@@ -6,12 +6,12 @@ Simple program to help with port memorization for Security+ SYO-501 certificatio
 	- make port_trainer.py executable and run with ./port_trainer.py
 	- or, python3 port_trainer.py
 
-### Future:
+### Future changes:
 - make game loop to keep playing
 - give escape sequence to end loop and start over / exit (currently only CTRL+c)
 - randomize question order
 - ask questions with protocol and prompt for port number
 
-
-#### Created by: flowenol with :love:
+## Release Info:
+#### Created by flowenol with :heart:
 - Last modified: 11/24/2020
