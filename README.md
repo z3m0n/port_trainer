@@ -7,7 +7,8 @@ Simple python script to help with port memorization for Security+ SYO-501 certif
 - install dependecies with `pip3 install -r requirements.txt`
 	
 ###### RUN	
-- make port_trainer.py executable and run with `./port_trainer.py`
+- make port_trainer.py executable with `chmod +x port_trainer.py`
+- run with `./port_trainer.py`
 - or, `python3 port_trainer.py`
 
 ## FUTURE IMPROVEMENTS
