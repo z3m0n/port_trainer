@@ -1,7 +1,20 @@
 #! /usr/bin/python3
 
-#import
 
+from os import system, name
+from time import sleep
+
+# define clear screen function
+def clear_screen():
+	# for Windows
+	if name == 'nt':
+		_ = system('cls')
+
+	# for mac & linux (os.name is 'posix')
+	else:
+		_ = system('clear')
+
+# define port:protocol dictionary
 port_proto_dict = {
 	"21": "FTP",
 	"22": "SSH, SCP, SFTP",
@@ -28,22 +41,30 @@ port_proto_dict = {
 	"3389": "RDP"
 }
 
+# define variables for correct/incorrect answers
 correct = 0
 incorrect = 0
 
+# for loop to iterate dictionary by items
 for port, protocol in port_proto_dict.items():
+	clear_screen()
 	print('\nPort: '+ str(port))
 	answer = input('Protocol? ')
 	if (answer.lower() == protocol.lower()):
 		print('Correct!')
 		correct += 1
+		sleep(1) # quick sleep before clear screen
 	else:
 		print('Wrong!')
 		print('Correct answer: '+str(port)+': '+str(protocol))
 		incorrect += 1
+		sleep(3) # sleep to allow user to see correct answer
+# end for loop
 
-score = round(correct/(correct+incorrect) * 100, 2)
+clear_screen() # clear screen before displaying results
+score = round(correct/(correct+incorrect) * 100, 2) # calculate score
 
+# print results
 print('\nThanks for practicing!')
 print('-> Correct answers: '+ str(correct))
 print('-> Incorrect answers: '+ str(incorrect))
