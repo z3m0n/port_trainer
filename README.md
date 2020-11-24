@@ -11,6 +11,13 @@ Simple python script to help with port memorization for Security+ SYO-501 certif
 - give escape sequence to end loop and start over / exit (currently only CTRL+c)
 - randomize question order
 - ask questions with protocol and prompt for port number
+- store incorrect answers and give option to review
+- score ranges to display messages
+	- 100 - Perfect! You're ready for the exam!
+	- 90 - 99 - Well Done!
+	- 75 - 89 - Good, but not great...
+	- 65 - 74 - Not failing, but you need to study.
+	- < 65 - Terrible! Go study!
 
 ## Release Info:
 #### Created with :heart: by flowenol
