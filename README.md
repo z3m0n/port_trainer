@@ -3,14 +3,14 @@ Simple python script to help with port memorization for Security+ SYO-501 certif
 
 ## INSTALL & RUN
 ###### INSTALL
-	- clone this repo or copy code to local machine
-	- install dependecies with `pip3 install -r requirements.txt`
+- clone this repo or copy code to local machine
+- install dependecies with `pip3 install -r requirements.txt`
 	
 ###### RUN	
-	- make port_trainer.py executable and run with `./port_trainer.py`
-	- or, `python3 port_trainer.py`
+- make port_trainer.py executable and run with `./port_trainer.py`
+- or, `python3 port_trainer.py`
 
-## Future changes:
+## FUTURE IMPROVEMENTS
 - make game loop to keep playing
 - give escape sequence to end loop and start over / exit (currently only CTRL+c)
 - randomize question order
@@ -23,6 +23,6 @@ Simple python script to help with port memorization for Security+ SYO-501 certif
 	- 65 - 74 - Not failing, but you need to study.
 	- < 65 - Terrible! Go study!
 
-## Release Info:
+## RELEASE INFO
 - Last modified: 11/24/2020
 ##### Created with :heart: by flowenol
